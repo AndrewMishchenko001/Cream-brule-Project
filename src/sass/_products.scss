@@ -20,6 +20,16 @@
     font-weight: normal;
     line-height: 1.147;
     text-align: center;
-    // letter-spacing: $main-letter-spacing;
+
+    text-transform: uppercase;
+  }
+  .products__title{
+    color: $text-color-title;
+    
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 1.147;
+    text-align: center;
+
     text-transform: uppercase;
   }
