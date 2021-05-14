@@ -4,7 +4,11 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import '../sass/placeholder';
-@import '../sass/variables';
-@import '../sass/base';
-@import '../sass/header';
+
+@import './placeholder';
+@import './variables';
+@import './base';
+@import './mobile-menu';
+@import './header';
+@import'./products';
+
