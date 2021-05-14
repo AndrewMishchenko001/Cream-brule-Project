@@ -1,6 +1,4 @@
-// .list{
-//     list-style: none;
-// }
+
 .products {
     padding-top: 121px;
     padding-bottom: 98px;
@@ -65,6 +63,7 @@
           background-image: url(../images/products/tel/x1/product1-tel.png);
           background-size: 249px 252px;
         }
+
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
           &::after {
             background-image: url(/images/products/tel/x2/product1-tel@2x.png);
@@ -90,12 +89,13 @@
           background-size: 249px 252px;
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-          &::after {
+          &::after {  
             background-image: url(/images/products/tel/x2/product2-tel@2x.png);
           }
         }
       }
       &:nth-child(3) {
+          
         & .overlay__link:hover,
         & .overlay__link:focus {
           color: $hover-crimson-btn;
@@ -113,6 +113,7 @@
           background-image: url(/images/products/tel/x1/product3-tel.png);
           background-size: 249px 252px;
         }
+        
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
           &::after {
             background-image: url(/images/products/tel/x2/product3-tel@2x.png);
@@ -120,8 +121,7 @@
         }
       }
     }
-  
-    &__item-title {
+    &__item-title { 
       position: relative;
       display: flex;
       flex-direction: column;
@@ -150,8 +150,6 @@
     &__item-information {
       margin-bottom: 30px;
       width: 200px;
-    
-  
       font-family: DM Sans;
       font-style: normal;
       font-weight: bold;
@@ -161,6 +159,7 @@
       letter-spacing:  0.04em;
       color: $white-color;
     }
+    
     &__item-btn {
       display: flex;
       align-items: center;
@@ -200,6 +199,7 @@
     width: 100%;
     align-items: center;
   }
+
   .products__btn-wraper {
     position: relative;
     display: flex;
@@ -248,8 +248,6 @@
     font-family: Titan One;
     text-decoration: none;
     color: $white-color;
-    
-    
   }
   
   @media screen and (min-width: $min-width-tablet) {
@@ -265,6 +263,7 @@
         line-height: 1, 14;
       }
       &__list {
+        @extend %list;
         display: flex;
         justify-content: center;
         padding-top: 156px;
@@ -358,6 +357,7 @@
       }
   
       &__list {
+        @extend list%;
         padding-top: 256px;
         margin-left: -25px;
         margin-top: -25px;
@@ -380,7 +380,6 @@
       }
       &__item-information {
         width: 241px;
-        // height: 106px;
         font-size: 16px;
         line-height: 1.76;
         margin-bottom: 62px;
@@ -388,6 +387,7 @@
     }
   
     .products__item:nth-child(1)::after {
+
       top: -210px;
       width: 335px;
       height: 335px;
