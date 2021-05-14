@@ -133,7 +133,7 @@
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .about {
+    .about-section {
       background-image: url(../images/about/tel/x2/background-tel@2x.png);
     }
   }
@@ -330,8 +330,9 @@
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .about {
+    .about-section {
       background-image: url(../images/about/desktop/x2/background-desktop@2x.png);
     }
   }
 }
+
