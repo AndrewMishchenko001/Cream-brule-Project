@@ -160,6 +160,11 @@
       padding: 12px 56px 12px 38px;
     }
   }
+  &__icon {
+    fill: currentColor;
+    text-align: center;
+    margin-left: 8px;
+  }
 }
 .locations-wrapper {
   padding-top: 25px;
@@ -225,6 +230,7 @@
     }
   }
   &__time + &__day {
+    margin-top: 10px;
     @media (min-width: $min-width-tablet) {
       margin-top: 16px;
     }
