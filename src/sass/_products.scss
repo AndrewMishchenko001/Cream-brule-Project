@@ -357,7 +357,7 @@
       }
   
       &__list {
-        @extend list%;
+        @extend %list;
         padding-top: 256px;
         margin-left: -25px;
         margin-top: -25px;
