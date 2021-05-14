@@ -41,7 +41,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  color: $crimson-color;
+  color: $text-color-title;
   border: transparent;
   &:hover,
   &:focus {
@@ -57,14 +57,14 @@
   width: 7px;
   height: 10px;
   fill: currentColor;
-  stroke: $crimson-color;
+  stroke: $text-color-title;
 }
 
 .header__menu-icon {
   display: block;
   width: 20px;
   height: 12px;
-  stroke: $crimson-color;
+  stroke: $text-color-title;
 }
 
 @media screen and (max-width: 767px) {
