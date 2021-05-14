@@ -1,0 +1,23 @@
+.customers__label{
+font-weight: 500;
+font-size: 12px;
+line-height: 3.1;
+text-align: center;
+color:$primary-text-color;
+}
+.mini-container {
+    padding: 0 50px;
+    background-color:#FAFAFA;
+    margin-top: 29px;
+}
+.customers__text{
+font-weight: 500;
+font-size: 14px;
+line-height: 2.6;
+text-align: center;
+margin-top: 18px;
+}
+.customers__img {
+    margin: 0 auto;
+    @extend %image;
+}
