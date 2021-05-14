@@ -1,7 +1,7 @@
 .list{
     list-style: none;
 }
-.products {
+.products { 
     padding-top: 121px;
     padding-bottom: 98px;
   
@@ -120,7 +120,7 @@
       }
     }
   
-    &__item-title {
+    &__item-title { 
       position: relative;
       display: flex;
       flex-direction: column;
@@ -247,8 +247,6 @@
     font-family: Titan One;
     text-decoration: none;
     color: $white-color;
-    
-    
   }
   
   @media screen and (min-width: $min-width-tablet) {
@@ -379,7 +377,6 @@
       }
       &__item-information {
         width: 241px;
-        // height: 106px;
         font-size: 16px;
         line-height: 1.76;
         margin-bottom: 62px;
