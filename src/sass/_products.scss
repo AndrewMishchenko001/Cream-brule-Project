@@ -9,7 +9,7 @@
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 15px;
-      color: $background-label;
+      color: $dark-pink-color;
       font-family: Titan One;
       font-size: 18px;
       line-height: 1.166;
@@ -49,7 +49,7 @@
       &:nth-child(1) {
         & .overlay__link:hover,
         & .overlay__link:focus {
-          color: $background-hover;
+          color: $hover-crimson-btn;
         }
   
         background-color: $background-pink;
@@ -73,10 +73,10 @@
       &:nth-child(2) {
         & .overlay__link:hover,
         & .overlay__link:focus {
-          color: $background-hover;
+          color: $hover-crimson-btn;
         }
         margin-top: 130px;
-        background-color: $background-beige;
+        background-color: $background-coffee;
         &::after {
           content: '';
           position: absolute;
@@ -97,7 +97,7 @@
       &:nth-child(3) {
         & .overlay__link:hover,
         & .overlay__link:focus {
-          color: $background-hover;
+          color: $hover-crimson-btn;
         }
         margin-top: 130px;
         background-color: $background-green;
@@ -173,7 +173,7 @@
       cursor: pointer;
       &:hover,
       &:focus {
-        background-color: $background-hover;
+        background-color: $hover-crimson-btn;
         & .products__item-icon {
           fill: #fff;
         }
@@ -237,7 +237,7 @@
     }
   }
   .overlay--iced-coffe {
-    background-image: linear-gradient(to bottom, #e4c293 55%, $background-beige);
+    background-image: linear-gradient(to bottom, #e4c293 55%, $background-coffee);
   }
   .overlay--milkshakes {
     background-image: linear-gradient(to bottom, #b8d493 55%, $background-green);
