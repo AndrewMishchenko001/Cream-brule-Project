@@ -1,6 +1,6 @@
-.list{
-    list-style: none;
-}
+// .list{
+//     list-style: none;
+// }
 .products {
     padding-top: 121px;
     padding-bottom: 98px;
@@ -28,6 +28,7 @@
     }
     &__list {
       padding-top: 142px;
+      @extend %list;
     }
   
     &__item {
