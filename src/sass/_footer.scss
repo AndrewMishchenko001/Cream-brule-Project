@@ -1,0 +1,27 @@
+.footer {
+  padding-bottom: 25px;
+  background-color: $background-light-pink;
+  &-title {
+    &__small {
+      width: 232px;
+      margin-bottom: 17px;
+      font-family: $title-font-family;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.16;
+      text-transform: uppercase;
+      color: $dark-pink-color;
+    }
+    &__big {
+      width: 200px;
+      margin-bottom: 42px;
+      font-family: $title-font-family;
+      font-weight: 400;
+      font-size: 34px;
+      line-height: 1.15;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: $text-color-title;
+    }
+  }
+}
