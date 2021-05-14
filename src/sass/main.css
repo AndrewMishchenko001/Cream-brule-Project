@@ -25,33 +25,5 @@ ul {
   height: auto;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-}
 
-@media screen and (max-width: 767px) {
-  .container {
-    min-width: 320px;
-    max-width: 480px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding-left: 34px;
-    padding-right: 34px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1080px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
 /*# sourceMappingURL=main.css.map */
