@@ -1,0 +1,18 @@
+.hero .container{
+    position: relative;
+    height: 100%;
+
+@media screen and (min-width:$min-width-tablet) {
+    width: 100%;
+    padding-left: 4.4%;
+    padding-right: 4.4%; 
+}
+
+@media screen and (min-width: 1024px) {
+    width: 88%;
+}
+
+@media screen and (min-width:$min-width-desktop) {
+    width: 1080px;
+}
+}
