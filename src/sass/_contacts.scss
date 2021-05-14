@@ -82,7 +82,7 @@
     }
   }
   &__category-one {
-    background-color: $background-beige;
+    background-color: $background-coffee;
     border-radius: 4px;
     height: 16px;
     width: 80px;
@@ -178,7 +178,7 @@
     padding-bottom: 32px;
   }
   &__city {
-    color: $black-color;
+    color: $primary-text-color;
     margin-bottom: 10px;
     @media (min-width: $min-width-tablet) {
       margin-bottom: 14px;
@@ -220,7 +220,7 @@
     }
   }
   &__time {
-    color: $background-label;
+    color: $dark-pink-color;
     @media (min-width: $min-width-tablet) {
       line-height: 165%;
     }
