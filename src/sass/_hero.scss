@@ -1,11 +1,13 @@
+
 .hero .container{
     position: relative;
     height: 100%;
 
 @media screen and (min-width:$min-width-tablet) {
-    width: 100%;
-    padding-left: 4.4%;
-    padding-right: 4.4%; 
+    width: 768px;
+    padding-left: 34px;
+    padding-right: 34px;
+ 
 }
 
 @media screen and (min-width: 1024px) {
@@ -14,6 +16,8 @@
 
 @media screen and (min-width:$min-width-desktop) {
     width: 1080px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 }
 
@@ -131,9 +135,7 @@
         }
       
         &__desc-link {
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          @extend %flex;
           width: 18px;
           height: 18px;
           border-radius: 50%;
@@ -165,7 +167,6 @@
       
       .primary-button {
         &__list {
-          @extend %list;
           display: flex;
           flex-direction: row;
           transition: all 0.2s ease 0s;
@@ -177,11 +178,8 @@
             margin-bottom: 112px;
           }
         }
-      
         &__item {
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          @extend %flex;
           transition: all 0.2s ease 0s;
       
           &:not(:last-child) {
