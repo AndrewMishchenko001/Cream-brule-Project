@@ -1893,8 +1893,13 @@ ul {
 @media screen and (min-width: 768px) {
   .footer {
     padding-top: 0;
+    padding-bottom: 18px;
   }
   .footer-wrap {
+    padding-bottom: 0;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-bottom: 91px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1930,21 +1935,19 @@ ul {
   .social__item:not(:last-child) {
     margin-right: 28px;
   }
-  .footer__сontact {
-    text-align: right;
-    font-weight: 700;
+  .footer__address {
     font-size: 14px;
     line-height: 1.84;
   }
   .footer__copyright {
-    margin-top: 90px;
+    margin-top: 0;
   }
   .footer__copyright--text {
-    font-weight: 700;
+    width: 276px;
+    padding: 29px auto 18px auto;
     font-size: 14px;
     line-height: 1.86;
     text-align: center;
-    width: auto;
     padding-top: 29px;
   }
 }

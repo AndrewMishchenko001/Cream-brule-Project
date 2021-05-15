@@ -95,8 +95,13 @@
 @media screen and (min-width: $min-width-tablet) {
   .footer {
     padding-top: 0;
+    padding-bottom: 18px;
   }
   .footer-wrap {
+    padding-bottom: 0;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-bottom: 91px;
     display: flex;
     justify-content: space-between;
   }
@@ -134,32 +139,20 @@
     }
   }
 
-  .footer__сontact {
-    text-align: right;
-
-    // font-family: $main-font;
-    font-weight: 700;
+  .footer__address {
     font-size: 14px;
     line-height: 1.84;
-    // letter-spacing: $main-letter-spacing;
-    // color: $main-black-color;
   }
-  // .footer__сontact-link {
-  //   // color: $text-color-title;
-  // }
 
   .footer__copyright {
-    margin-top: 90px;
+    margin-top: 0;
 
     &--text {
-      // font-family: $main-font;
-      font-weight: 700;
+      width: 276px;
+      padding: 29px auto 18px auto;
       font-size: 14px;
       line-height: 1.86;
-      // letter-spacing: $main-letter-spacing;
-      // color: $text-color-accent;
       text-align: center;
-      width: auto;
       padding-top: 29px;
     }
   }
