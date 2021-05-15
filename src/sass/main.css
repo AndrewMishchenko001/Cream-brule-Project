@@ -1822,6 +1822,10 @@ ul {
   color: #d41443;
 }
 
+.footer-wrap {
+  padding-bottom: 42px;
+}
+
 .social {
   margin-bottom: 50px;
 }
@@ -1869,5 +1873,20 @@ ul {
 
 .footer__address--link {
   color: #d41443;
+}
+
+.footer__copyright {
+  border-top: 1px solid #e1e1e1;
+}
+
+.footer__copyright--text {
+  width: 150px;
+  padding-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.52;
+  color: #907e82;
 }
 /*# sourceMappingURL=main.css.map */
