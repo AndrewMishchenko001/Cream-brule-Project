@@ -146,6 +146,7 @@
             width: 26px;
             height: 26px;
           }
+      
         
       
           &-icon {
@@ -360,7 +361,7 @@
       
       .hero__bg-tasty {
         position: absolute;
-        bottom: -100px;
+        bottom: 0;
         right: 48px;
         transition: all 0.2s ease 0s;
       
