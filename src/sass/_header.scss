@@ -26,6 +26,7 @@
   display: block;
   border: none;
   background: transparent;
+  z-index: 2;
 }
 .navigation__list {
   list-style: none;
@@ -64,7 +65,8 @@
   display: block;
   width: 20px;
   height: 12px;
-  stroke: $text-color-title;
+  fill: currentColor;
+  color: $text-color-title;
 }
 
 @media screen and (max-width: 767px) {
