@@ -3,7 +3,7 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
-.picture-wrap, .contacts-section__card-list, .social__link {
+.picture-wrap, .contacts-section__card-list, .social__item, .social__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,7 +21,7 @@
   padding: 0;
 }
 
-.overlay__link, .social__link {
+.overlay__link, .social__link, .footer__address--link {
   text-decoration: none;
 }
 
@@ -1836,15 +1836,6 @@ ul {
 }
 
 .social__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   width: 32px;
   height: 32px;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1854,7 +1845,7 @@ ul {
 }
 
 .social__item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 28px;
 }
 
 .social__item:hover, .social__item:focus {
@@ -1865,5 +1856,18 @@ ul {
   width: 18px;
   height: 18px;
   fill: #ffffff;
+}
+
+.footer__address {
+  text-align: right;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.83;
+  color: #000000;
+}
+
+.footer__address--link {
+  color: #d41443;
 }
 /*# sourceMappingURL=main.css.map */

@@ -34,9 +34,7 @@
     justify-content: flex-end;
   }
   &__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex;
     width: 32px;
     height: 32px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -44,7 +42,7 @@
     background-color: $social-links-svg;
 
     &:not(:last-child) {
-      margin-right: 30px;
+      margin-right: 28px;
     }
 
     &:hover,
@@ -60,5 +58,18 @@
     width: 18px;
     height: 18px;
     fill: $white-color;
+  }
+}
+
+.footer__address {
+  text-align: right;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.83;
+  color: $primary-text-color;
+  &--link {
+    @extend %link;
+    color: $text-color-title;
   }
 }
