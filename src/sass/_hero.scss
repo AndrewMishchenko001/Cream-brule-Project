@@ -192,6 +192,15 @@
         }
       }
       
+      .primary-button{
+        &__link{
+          @extend %link;
+          font-family: $primary-font-family;
+          font-size: 400;
+          color: inherit;
+        }
+        }
+
       .bg-group {
         transition: all 0.2s ease 0s;
       
@@ -311,10 +320,8 @@
 }
 
 .primary-btn--dark {
-  @extend %list;
   width: 61px;
   height: 24px;
-
   color: $white-color;
   background-color: $text-color-title;
 
@@ -339,8 +346,9 @@
   }
 }
 
+
+
 .primary-btn--light {
-  @extend %list;
   width: 83px;
   height: 24px;
 
