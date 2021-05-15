@@ -140,11 +140,13 @@
           height: 18px;
           border-radius: 50%;
           background-color: $white-color;
+          
       
           @media screen and (min-width: $min-width-desktop) {
             width: 26px;
             height: 26px;
           }
+        
       
           &-icon {
             width: 6px;
@@ -152,6 +154,7 @@
             fill: $text-color-title;
             border-radius: 50%;
             transition: all 0.2s ease 0s;
+          
       
             @media screen and (min-width: $min-width-desktop) {
               width: 8px;
