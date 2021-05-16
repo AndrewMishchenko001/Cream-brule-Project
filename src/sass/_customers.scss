@@ -1,13 +1,13 @@
 .customers__section {
-    padding-top: 80px;
+    margin-top: 80px;
     padding-bottom: 43px;
 
     @media screen and (min-width: $min-width-tablet) and (max-width: $max-width-tablet) {
-      padding-top: 120px;
+      margin-top: 123px;
       padding-bottom: 60px;
     }
     @media screen and (min-width: $min-width-desktop) {
-      padding-top: 92px;
+      margin-top: 123px;
       padding-bottom: 66px;
     }
   }
