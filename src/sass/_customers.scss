@@ -1,6 +1,7 @@
 .customers__section {
     margin-top: 80px;
     padding-bottom: 43px;
+    overflow-x: hidden;
 
     @media screen and (min-width: $min-width-tablet) and (max-width: $max-width-tablet) {
       margin-top: 123px;
