@@ -2544,6 +2544,7 @@ ul {
 }
 
 .footer {
+  min-width: 100vh;
   padding-bottom: 25px;
   background-color: #fff5f6;
 }
@@ -2561,22 +2562,22 @@ ul {
 
 .footer-title__big {
   width: 200px;
-  margin-bottom: 42px;
+  margin-bottom: 43px;
   font-family: "Titan One", cursive;
   font-weight: 400;
   font-size: 34px;
-  line-height: 1.15;
+  line-height: 1.12;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #d41443;
 }
 
 .footer-wrap {
-  padding-bottom: 42px;
+  padding-bottom: 43px;
 }
 
 .social {
-  margin-bottom: 50px;
+  margin-bottom: 46px;
 }
 
 .social__list {
@@ -2591,8 +2592,10 @@ ul {
 .social__item {
   width: 32px;
   height: 32px;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 50%;
   background-color: #fea5bb;
 }
@@ -2629,13 +2632,14 @@ ul {
 }
 
 .footer__copyright--text {
-  width: 150px;
+  width: 149px;
   padding-top: 22px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.52;
+  line-height: 1.6;
   color: #907e82;
 }
 
@@ -2658,20 +2662,19 @@ ul {
   }
   .footer-title {
     font-weight: 400;
-    font-size: 26px;
-    line-height: 1.15;
   }
   .footer-title__small {
     width: 340px;
     margin-bottom: 16px;
     font-size: 26px;
+    line-height: 1.12;
     letter-spacing: 0.04em;
   }
   .footer-title__big {
     width: 340px;
     margin-bottom: 0;
-    font-family: "Titan One", cursive;
     font-size: 48px;
+    line-height: 1.15;
     letter-spacing: 0.06em;
   }
   .social {
@@ -2682,7 +2685,7 @@ ul {
     height: 34px;
   }
   .social__item:not(:last-child) {
-    margin-right: 28px;
+    margin-right: 30px;
   }
   .footer__address {
     font-size: 14px;
@@ -2707,6 +2710,8 @@ ul {
   }
   .footer-wrap {
     padding-bottom: 0;
+    padding-left: 114px;
+    padding-right: 116px;
     margin-bottom: 97px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2725,8 +2730,8 @@ ul {
   .footer-title__big {
     width: 474px;
     margin-bottom: 0;
-    font-family: "Titan One", cursive;
     font-size: 58px;
+    line-height: 1.15;
     letter-spacing: 0.05em;
   }
   .social {
@@ -2742,6 +2747,7 @@ ul {
   .footer__address {
     font-size: 16px;
     line-height: 1.86;
+    letter-spacing: 0.02em;
   }
   .footer__copyright {
     margin-top: 0;
