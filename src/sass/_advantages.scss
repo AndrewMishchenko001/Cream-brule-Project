@@ -5,7 +5,15 @@
   font-style: normal;
   font-weight: normal;
   color: $text-color-title;
-  padding-bottom: 97px;
+  @media screen and (min-width: 320px) {
+ 
+  }
+  @media screen and (min-width: $min-width-tablet) {
+    // padding-bottom: 140px;
+  }
+  @media screen and (min-width: $min-width-desktop) {
+    padding-bottom: 139px;
+  }
 
   &.container {
     min-width: 320px;
@@ -34,6 +42,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 38px;
+    padding-bottom: 97px;
     @media screen and (min-width: $min-width-tablet) {
       // flex-direction: row;
       grid-template-columns: repeat(3, 1fr);
@@ -41,7 +50,7 @@
       padding: 0 56px 140px 16px;
     }
     @media screen and (min-width: $min-width-desktop) {
-      padding: 0 95px 133px;
+      padding: 0 95px;
       grid-gap: 30px;
     }
   }
