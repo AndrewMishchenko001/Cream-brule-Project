@@ -114,6 +114,7 @@ ul {
 .header__burger-button {
   cursor: pointer;
   display: block;
+  padding: 0;
   border: none;
   background: transparent;
   z-index: 2;
@@ -151,13 +152,28 @@ ul {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  color: #d41443;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-wrapper {
+    margin-left: 0;
+  }
 }
 
 .button-icon {
-  width: 7px;
+  width: 10px;
   height: 10px;
   fill: currentColor;
   stroke: #d41443;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-icon {
+    margin-left: 12px;
+  }
 }
 
 .header__menu-icon {
@@ -273,12 +289,17 @@ ul {
 
 .drop-menu__button-close {
   cursor: pointer;
-  padding: 10px;
+  padding: 10px 0;
   position: absolute;
   top: 23px;
   right: 28px;
   border: none;
   background: transparent;
+  fill: #ffffff;
+}
+
+.drop-menu__button-close:hover, .drop-menu__button-close:focus {
+  fill: #ecebeb;
 }
 
 .drop-menu__button-close-icon {
@@ -1396,6 +1417,7 @@ ul {
   font-style: normal;
   font-weight: normal;
   color: #d41443;
+  padding-bottom: 97px;
 }
 
 .advantages-section.container {
@@ -1584,7 +1606,7 @@ ul {
 .about-section {
   position: relative;
   padding-top: 125px;
-  padding-bottom: 145px;
+  padding-bottom: 39px;
   background: #fff5f6;
   background-image: url(../images/about/tel/x1/background-tel.png);
   background-repeat: no-repeat;
@@ -1672,8 +1694,6 @@ ul {
   width: 176px;
   height: 44px;
   padding: 0;
-  margin-bottom: 66px;
-  margin-left: auto;
   margin-right: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1702,7 +1722,7 @@ ul {
   background: #ecebeb;
 }
 
-@media screen and (max-width: 771px) {
+@media screen and (min-width: 768px) {
   .about-section {
     position: relative;
     padding-top: 125px;
@@ -1715,7 +1735,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 771px) and (min-device-pixel-ratio: 2), screen and (max-width: 771px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 771px) and (min-resolution: 192dpi), screen and (max-width: 771px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .about-section {
     background-image: url(../images/about/tel/x2/background-tel@2x.png);
   }
@@ -1917,6 +1937,11 @@ ul {
   }
 }
 
+.gallery__section {
+  background-color: #fff5f6;
+  background-image: linear-gradient(to bottom, transparent 40%, #ffffff 100px);
+}
+
 .img {
   border-radius: 5px;
   width: 100%;
@@ -2097,10 +2122,6 @@ ul {
   }
 }
 
-.gallery__section {
-  padding: 90px 0;
-}
-
 .customers__label {
   font-weight: 500;
   font-size: 12px;
@@ -2137,12 +2158,13 @@ ul {
   line-height: 186%;
   letter-spacing: 0.04em;
   width: 100%;
-  padding-bottom: 165px;
+  padding-bottom: 113px;
 }
 
 @media (min-width: 768px) {
   .contacts-section {
     font-size: 14px;
+    padding-bottom: 158px;
     background-image: linear-gradient(to top, transparent 90%, #ffffff 100px);
   }
 }
@@ -2154,6 +2176,7 @@ ul {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 165px;
   }
 }
 
@@ -2620,6 +2643,12 @@ ul {
   font-size: 14px;
   line-height: 1.52;
   color: #907e82;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    width: 100vh;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
