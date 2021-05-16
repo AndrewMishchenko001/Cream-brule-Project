@@ -11,6 +11,11 @@
   height: auto;
   display: block;
   object-fit: cover;
+
+&:hover {
+  transform: scale(1.2);
+  transition: transform $transition-duration $timing-function ;
+}
 }
 .gallery__list {
   @extend %list;
