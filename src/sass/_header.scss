@@ -24,6 +24,7 @@
 .header__burger-button {
   cursor: pointer;
   display: block;
+  padding: 0;
   border: none;
   background: transparent;
   z-index: 2;
@@ -53,12 +54,21 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  color: $text-color-title;
+  margin-left: 10px;
+  @media screen and (min-width: 768px) {
+    margin-left: 0;
+  }
 }
 .button-icon {
-  width: 7px;
+  width: 10px;
   height: 10px;
   fill: currentColor;
   stroke: $text-color-title;
+  margin-left: 16px;
+  @media screen and (min-width: 768px) {
+    margin-left: 12px;
+  }
 }
 
 .header__menu-icon {

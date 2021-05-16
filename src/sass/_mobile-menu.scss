@@ -22,12 +22,17 @@
 
 .drop-menu__button-close {
   cursor: pointer;
-  padding: 10px;
+  padding: 10px 0;
   position: absolute;
   top: 23px;
   right: 28px;
   border: none;
   background: transparent;
+  fill: $white-color;
+  &:hover,
+  &:focus {
+    fill: $hover-grey-btn;
+  }
 }
 
 .drop-menu__button-close-icon {
