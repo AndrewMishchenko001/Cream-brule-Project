@@ -217,8 +217,10 @@
         left: 36px;
         margin: 0%;
         
-        background: $dark-pink-color;
-        border-radius: 50%;
+        background-image: url(../images/hero/desktop/x2/ellipse-desktop@2x.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
       
         width: 346px;
         height: 344px;
@@ -262,6 +264,7 @@
 
       .bg-group-secondary {
         &__list{
+          @extend %list;
            width: 100%;
             display: flex;
             flex-direction: column;

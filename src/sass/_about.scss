@@ -1,7 +1,7 @@
 .about-section {
   position: relative;
   padding-top: 125px;
-  padding-bottom: 145px;
+  padding-bottom: 39px;
   background: $background-light-pink;
   background-image: url(../images/about/tel/x1/background-tel.png);
   background-repeat: no-repeat;
@@ -91,8 +91,8 @@
   width: 176px;
   height: 44px;
   padding: 0;
-  margin-bottom: 66px;
-  margin-left: auto;
+  // margin-bottom: 66px;
+  // margin-left: auto;
   margin-right: auto;
   justify-content: center;
   align-items: center;
@@ -117,7 +117,7 @@
   background: #ecebeb;
 }
 
-@media screen and(max-width: 771px) {
+@media screen and(min-width: 768px) {
   .about-section {
     position: relative;
     padding-top: 125px;
@@ -335,4 +335,3 @@
     }
   }
 }
-
