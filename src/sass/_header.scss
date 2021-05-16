@@ -45,6 +45,7 @@
   line-height: 21px;
   color: $text-color-title;
   border: transparent;
+  cursor: pointer;
   &:hover,
   &:focus {
     background: $hover-grey-btn;
