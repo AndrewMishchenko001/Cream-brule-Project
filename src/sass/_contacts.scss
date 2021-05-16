@@ -9,9 +9,10 @@
   line-height: 186%;
   letter-spacing: 0.04em;
   width: 100%;
-  padding-bottom: 165px;
+  padding-bottom: 113px;
   @media (min-width: $min-width-tablet) {
     font-size: 14px;
+    padding-bottom: 158px;
     background-image: linear-gradient(to top, transparent 90%, $white-color 100px);
   }
   @media (min-width: 1280px) {
@@ -21,6 +22,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 165px;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: linear-gradient(to top, transparent 87%, $white-color 100px),
