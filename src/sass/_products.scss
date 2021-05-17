@@ -8,7 +8,7 @@
       margin-right: auto;
       margin-bottom: 15px;
       color: $dark-pink-color;
-      font-family: Titan One;
+      font-family: $title-font-family;
       font-size: 18px;
       line-height: 1.166;
       text-align: center;
@@ -16,7 +16,7 @@
     }
     &__title {
       color: $text-color-title;
-      font-family: Titan One;
+      font-family: $title-font-family;
       font-size: 34px;
       font-weight: normal;
       line-height: 1.147;
